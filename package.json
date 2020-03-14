@@ -1,0 +1,20 @@
+{
+  "name": "linkshortener",
+  "version": "1.0.0",
+  "description": "mern stack link-shortener app",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js"
+  },
+  "author": "Maksym Snytchuk <snitchuk99@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
