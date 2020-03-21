@@ -7,6 +7,7 @@ const server = express();
 
 server.use(express.json({ extended: true }));
 server.use('/api/auth', require('./routes/auth.routes'));
+server.use('/api/link', require('./routes/link.routes'));
 
 const PORT = config.get('port') || 5000;
 
